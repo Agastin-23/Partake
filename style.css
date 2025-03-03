@@ -1,0 +1,724 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  height: 20vh;
+  background-image: url(./Images/1st\ background.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbox {
+  width: 100%;
+  display: flex;
+}
+.navlist-1 {
+  width: 40%;
+}
+.navlogo {
+  width: 20%;
+}
+.navlist-2 {
+  width: 40%;
+}
+li {
+  display: inline;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #005099;
+  font-size: 17px;
+}
+.unlist-1 {
+  padding-left: 350px;
+  padding-top: 30px;
+}
+.logo {
+  padding-left: 85px;
+  padding-top: 25px;
+}
+.unlist-2 {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.bx-search {
+  padding-left: 100px;
+  font-size: 25px;
+}
+.intro {
+  height: 50vh;
+  width: 100%;
+}
+.cokkie {
+  height: 80vh;
+  width: 100%;
+}
+.contentbox-1 {
+  width: 630px;
+  padding-top: 100px;
+  padding-left: 370px;
+  color: white;
+}
+.conthead {
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+}
+.contentpara {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 15px;
+}
+.contbutton {
+  padding: 15px 30px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 25px;
+  border-width: 1px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.cookiebox {
+  width: 100%;
+  height: 70vh;
+}
+.cookies {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  text-align: center;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #005099;
+}
+
+.chocochip {
+  width: 33.33%;
+  background-color: #f7b9e1;
+}
+.grahams {
+  width: 33.33%;
+  background-color: #60cf94;
+}
+.wafers {
+  width: 33.33%;
+  background-color: #abdbe9;
+}
+.boxofcookie {
+  width: 320px;
+  height: 50vh;
+  padding-bottom: 0;
+  padding-top: 52px;
+}
+.bluebox {
+  font-size: 32px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.underline-1 {
+  border-bottom: 3px solid white;
+  width: 148px;
+  margin-left: 244px;
+}
+.underline-2 {
+  border-bottom: 3px solid white;
+  width: 100px;
+  margin-left: 267px;
+}
+.underline-3 {
+  border-bottom: 3px solid white;
+  width: 148px;
+  margin-left: 244px;
+}
+.sec-1 {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  color: #005099;
+}
+
+.row {
+  width: 100%;
+  height: 30vh;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.rowhead {
+  font-size: 50px;
+  padding-top: 80px;
+}
+.rowpara {
+  font-size: 17px;
+  font-weight: normal;
+  padding-top: 15px;
+}
+.row-1 {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+}
+.peanut {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  border-radius: 50%;
+  margin: 15px;
+  margin-left: 560px;
+}
+.egg {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  border-radius: 50%;
+  margin: 15px;
+}
+.dairy {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  border-radius: 50%;
+  margin: 15px;
+}
+.soy {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  border-radius: 50%;
+  margin: 15px;
+}
+.nut {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  border-radius: 50%;
+
+  margin: 15px;
+}
+.sesame {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  border-radius: 50%;
+
+  margin: 15px;
+}
+.allergens {
+  width: 40px;
+}
+.allergens-egg {
+  width: 35px;
+}
+.allergens-dairy {
+  width: 30px;
+}
+.ingredients {
+  width: 100%;
+  height: 70vh;
+  background-color: #91dfb9;
+}
+.bigbox {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+}
+.box-1 {
+  width: 50%;
+  height: 70vh;
+  color: #005099;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.boxhead {
+  font-size: 50px;
+
+  padding-left: 400px;
+  padding-top: 120px;
+}
+.boxpara {
+  padding-left: 400px;
+  font-size: 22px;
+  padding-top: 20px;
+}
+.boxend {
+  padding-left: 400px;
+  font-size: 18px;
+  padding-top: 20px;
+}
+.boxbottom {
+  border-bottom: 5px solid whitesmoke;
+  width: 347px;
+  margin-left: 400px;
+}
+.box-2 {
+  height: 70vh;
+  width: 50%;
+}
+.picbox-1 {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+}
+.ginger {
+  width: 20%;
+  padding-top: 120px;
+}
+.vannila {
+  width: 20%;
+  padding-top: 120px;
+}
+.oats {
+  width: 20%;
+  padding-top: 120px;
+}
+.gingerpic {
+  width: 150px;
+}
+.vannilapic {
+  width: 150px;
+}
+.oatspic {
+  width: 150px;
+}
+.bxs-plus-circle {
+  font-size: 45px;
+}
+.picbox-2 {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+}
+.flax {
+  width: 20%;
+  padding-top: 50px;
+}
+.rosemery {
+  width: 20%;
+  padding-top: 50px;
+}
+.cinammon {
+  width: 20%;
+  padding-top: 50px;
+}
+.flaxpic {
+  width: 150px;
+}
+.rosemerypic {
+  width: 150px;
+}
+.cinammonpic {
+  width: 150px;
+}
+.sec-2 {
+  width: 100%;
+  height: 90vh;
+}
+.new {
+  width: 100%;
+  height: 20vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  color: #005099;
+}
+.newhead {
+  padding-top: 100px;
+  padding-left: 370px;
+}
+.newbox {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+}
+.lemon {
+  width: 20%;
+  height: 500px;
+
+  background-color: rgb(236, 236, 236);
+}
+.snicker {
+  width: 20%;
+  height: 500px;
+  margin-left: 30px;
+  background-color: rgb(236, 236, 236);
+}
+.marvel {
+  width: 20%;
+  height: 500px;
+  margin-left: 30px;
+  background-color: rgb(236, 236, 236);
+}
+.boxpic-1 {
+  padding-top: 50px;
+}
+.boxpic-2 {
+  padding-top: 50px;
+}
+.boxpic-3 {
+  padding-top: 50px;
+}
+.start {
+  width: 20%;
+}
+.endbox {
+  width: 20%;
+}
+.boxlabel {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  color: #005099;
+
+  text-align: center;
+}
+.headbox {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.headbox-1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+.first {
+  width: 20%;
+}
+.label-1 {
+  width: 20%;
+}
+.bxs-star {
+  font-weight: bold;
+  font-size: 20px;
+}
+.move {
+  padding-right: 50px;
+}
+.label-2 {
+  width: 20%;
+}
+.label-3 {
+  width: 20%;
+  padding-left: 20px;
+}
+.end {
+  width: 20%;
+}
+.labelpara {
+  font-size: 12px;
+  font-weight: normal;
+}
+.sec-3 {
+  width: 100%;
+  height: 15vh;
+}
+.minisec {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  background-color: #005099;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.minibox-1 {
+  width: 60%;
+  height: 15vh;
+}
+.minibox-2 {
+  width: 40%;
+  height: 15vh;
+}
+.miniline {
+  padding-top: 45px;
+  padding-left: 700px;
+}
+.ministore {
+  padding-top: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.uline {
+  border-bottom: 5px solid rgb(148, 252, 148);
+  width: 120px;
+}
+.sec-4 {
+  height: 75vh;
+  width: 100%;
+}
+.slide {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+}
+.slide-1 {
+  height: 75vh;
+  width: 50%;
+}
+.slide-2 {
+  width: 50%;
+  height: 75vh;
+}
+.chocobox {
+  width: 300px;
+  padding-left: 500px;
+  padding-top: 100px;
+}
+.slidepara {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #005099;
+  font-weight: bold;
+  padding-top: 200px;
+}
+.author {
+  color: #005099;
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.table {
+  width: 100%;
+  height: 90vh;
+  background-color: #92cad6;
+}
+.tablebox {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  color: #235e6b;
+}
+.tableimage {
+  width: 50%;
+  height: 90vh;
+  background-image: url(./Images/Denise_Feb2022-web_750x.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tableline {
+  width: 50%;
+  height: 90vh;
+}
+.tablehead {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  padding-top: 170px;
+  padding-left: 60px;
+}
+.tablepara {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 60px;
+  padding-top: 25px;
+}
+.smallhead {
+  padding-left: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 25px;
+  font-weight: bold;
+}
+.miicon {
+  padding-right: 20px;
+  font-size: 40px;
+}
+.formore {
+  padding-left: 60px;
+  padding-top: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.lastline {
+  border-bottom: 4px solid;
+  width: 117px;
+  padding-top: 5px;
+  margin-left: 60px;
+}
+.pixbox {
+  width: 100%;
+  height: 80vh;
+}
+.pix {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.pix-1 {
+  width: 33.33%;
+  height: 80vh;
+}
+.pix-2 {
+  width: 33.33%;
+  height: 80vh;
+}
+.pix-3 {
+  height: 80vh;
+  width: 33.33%;
+}
+.pic-1 {
+  height: 80vh;
+  width: 100%;
+}
+.pic-2 {
+  height: 80vh;
+  width: 100%;
+}
+.pic-3 {
+  height: 80vh;
+  width: 100%;
+}
+.follow {
+  width: 100%;
+  height: 25vh;
+}
+.followus {
+  width: 100%;
+  height: 25vh;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #005099;
+}
+.fhead {
+  padding-top: 60px;
+  font-size: 50px;
+}
+.foot {
+  height: 50vh;
+  width: 100%;
+  background-color: #235e6b;
+}
+.lastrow {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+.lrow-1 {
+  height: 30vh;
+  width: 25%;
+}
+.lrow-2 {
+  height: 30vh;
+  width: 25%;
+}
+.lrow-3 {
+  height: 30vh;
+  width: 50%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.olist {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding-left: 400px;
+  padding-top: 5px;
+}
+.ulist {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding-left: 200px;
+  padding-top: 5px;
+}
+.olist-1 {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding-left: 400px;
+  padding-top: 50px;
+}
+.ulist-1 {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.knowhead {
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.social {
+  font-size: 40px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.bxl-twitter {
+  padding-left: 200px;
+}
+.mailansub {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  padding-left: 200px;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.mail {
+  width: 250px;
+  height: 30px;
+}
+.sub {
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.endline {
+  border-bottom: 4px solid;
+  width: 350px;
+  margin-left: 200px;
+}
+.lastpara {
+  padding-left: 200px;
+  color: #abdbe9;
+  padding-top: 18px;
+  font-weight: normal;
+}
+.certificates {
+  width: 100%;
+  height: 20vh;
+}
+.certmain {
+  width: 70px;
+  padding-left: 390px;
+}
+.cert {
+  width: 70px;
+  padding-top: 50px;
+}
+.cert-1 {
+  width: 50px;
+  padding-right: 10px;
+}
+.cert-2 {
+  width: 50px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.rights {
+  color: #abdbe9;
+  padding-left: 400px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+input {
+  border: none;
+  outline: none;
+  background:none;
+  font-size: 19px;
+}
+::placeholder {
+  color: white;
+}
